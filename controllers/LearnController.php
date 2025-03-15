@@ -6,8 +6,6 @@ use yii\web\Controller;
 
 class LearnController extends Controller
 {
-    public $layout = false;
-    
     /**
      * Displays homepage.
      *

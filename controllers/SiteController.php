@@ -61,6 +61,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        // $var1 = 'This is testing variable';
+        // return $this->render('index',[
+        //     'var1' => $var1]);
+        \Yii::$app->params['var1'] = 'This is testing variable';
         return $this->render('index');
     }
 
