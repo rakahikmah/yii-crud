@@ -9,7 +9,6 @@ use yii\bootstrap5\Nav;
 use yii\bootstrap5\NavBar;
 use yii\bootstrap5\Html;
 
-echo Yii::$app->params['var1'];
 
 ?>
 

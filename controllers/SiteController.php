@@ -64,7 +64,8 @@ class SiteController extends Controller
         // $var1 = 'This is testing variable';
         // return $this->render('index',[
         //     'var1' => $var1]);
-        \Yii::$app->params['var1'] = 'This is testing variable';
+        Yii::$app->params['var1'] = 'This is testing variable';
+        Yii::$app->session->set('username', 'Raka');
         return $this->render('index');
     }
 
